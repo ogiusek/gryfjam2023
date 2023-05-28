@@ -1,0 +1,43 @@
+.screen {
+    display: flex;
+    width: 60vw;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background: rgb(9, 9, 121); */
+    /* background: radial-gradient(circle, rgba(9, 9, 121, 1) 0%, rgba(9, 9, 121, 1) 46%, rgba(18, 18, 142, 2) 100%); */
+
+    /* background: #53300e;
+    background: radial-gradient(circle, #53300e 0%, #53300e 46%, #a07440 100%); */
+    padding: 20vh 20vw;
+}
+
+.screen a,
+.screen button {
+    /* background-color: darkblue; */
+    background-color: darkgreen;
+    border: 1px solid aliceblue;
+
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+
+    min-width: 200px;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+.title {
+    text-align: center;
+    /* color: rgba(9, 9, 121, 1); */
+    color: darkgreen;
+    text-shadow:
+        -1px -1px 0 aliceblue,
+        1px -1px 0 aliceblue,
+        -1px 1px 0 aliceblue,
+        1px 1px 0 aliceblue;
+
+    font-size: 40px;
+    font-weight: 800;
+}

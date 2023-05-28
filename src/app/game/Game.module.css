@@ -1,0 +1,11 @@
+.interface {}
+
+.interface a {
+    text-decoration: none;
+    color: white;
+}
+
+.interface img {
+    max-width: 10vw;
+    max-height: 10vh;
+}

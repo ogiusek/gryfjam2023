@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAEFJREFUOE9jXFDi8J8BCjbvOcfg62IE4zIQw2ccNYABHAawwCKHpjwQgw344NEIjz8SGJS7YODDYDQlQlIiJdkZADkE5REvo6uHAAAAAElFTkSuQmCC');
+  background-repeat: repeat;
+  filter: none;
+  background-size: 96px;
+  image-rendering: pixelated;
+  user-select: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#canvas {
+  transition: 0s;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  overflow: hidden;
+  z-index: -1;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAEFJREFUOE9jXFDi8J8BCjbvOcfg62IE4zIQw2ccNYABHAawwCKHpjwQgw344NEIjz8SGJS7YODDYDQlQlIiJdkZADkE5REvo6uHAAAAAElFTkSuQmCC');
+  background-repeat: repeat;
+  filter: none;
+  background-size: 96px;
+  image-rendering: pixelated;
+}
+
+/* @font-face { */
+/* font-family: 'GameError'; */
+/* src: url('./codes/canvas/GhastlyPixe.ttf') format('ttf'); */
+/* } */
